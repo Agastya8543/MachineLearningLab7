@@ -29,5 +29,5 @@ print(f"Accuracy of the SVM on the test set: {accuracy}")
 # Perform classification for the given test vector
 test_vector = X_test[['embed_0', 'embed_1']].iloc[0]
 predicted_class = clf.predict([test_vector])
-print(f"The predicted class for the test vector: {predicted_class}")
+print(f"Predicted class : {predicted_class}")
  
